@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="fr-FR">
+<html lang="de-DE">
   <head>
     <meta charset="utf-8"/>
     <title><#if content.title??><#escape x as x?xml>${content.title}</#escape><#else>${config.site_title}</#if></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="${config.site_description}">
     <meta name="author" content="${config.site_author}">
-	<link href="${config.site_baseurl}feed.xml" rel="alternate" type="application/rss+xml" title="Les derniers billets" />
-    <meta name="keywords" content="">
+    <link href="${config.site_baseurl}feed.xml" rel="alternate" type="application/rss+xml" title="{config.site_title}" />
+    <meta name="keywords" content="${config.site_keywords}">
     <meta name="generator" content="JBake">
 
     <#-- Le styles -->
