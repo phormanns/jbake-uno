@@ -39,7 +39,6 @@
 				<section class="post">
 				${content.body}
 				</section>
-				<#include "disqus.ftl">
 		</article>
 		</div>
 		<#include "footer.ftl">
