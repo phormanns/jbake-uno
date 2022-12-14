@@ -1,4 +1,28 @@
-@import 'http://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/raleway400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/raleway700.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/robotoslab300.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/robotoslab400.ttf) format('truetype');
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
 	 v2.0 | 20110126
 	 License: none (public domain)
